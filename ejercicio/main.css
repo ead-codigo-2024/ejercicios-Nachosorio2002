@@ -1,0 +1,40 @@
+.banner{
+    max-width:900px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      display: grid;
+      gap:2rem;
+      padding: 2rem;
+      background-color: yellow;  
+      border-radius: 2rem;
+  }
+  
+  .banner_access{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .banner_acces{
+    justify-content: center;
+    }
+  
+  .access {
+      text-align:center;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  
+  
+  @media(min-width: 700px) {
+     .banner{
+      grid-template-columns:1fr 1fr;
+      }
+     .banner_acces{
+      grid_template-columns: 1fr 1fr;
+    }
+  }
